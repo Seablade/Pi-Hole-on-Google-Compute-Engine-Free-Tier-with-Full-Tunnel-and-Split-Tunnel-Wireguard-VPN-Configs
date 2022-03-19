@@ -28,7 +28,7 @@ function addClient() {
 	read -rp "Client's WireGuard IPv6 " -e -i "$CLIENT_WG_IPV6" CLIENT_WG_IPV6
 
 	# Pi-Hole DNS by default
-	CLIENT_DNS_1="10.42.0.1"
+	CLIENT_DNS_1="10.142.0.4"
 	read -rp "First DNS resolver to use for the client: " -e -i "$CLIENT_DNS_1" CLIENT_DNS_1
 
 	CLIENT_DNS_2="fd:2a:2a::1"
